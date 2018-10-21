@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parentLayout"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="20mm"
+        android:layout_height="10mm"
+        android:id="@+id/Company"
+        android:layout_centerVertical="true"
+        android:text="Skoda"/>
+    <TextView
+        android:layout_width="20mm"
+        android:layout_height="10mm"
+        android:layout_toRightOf="@id/Company"
+        android:id="@+id/Model"
+        android:layout_centerVertical="true"
+        android:text="Fabia"/>
+    <TextView
+        android:layout_width="20mm"
+        android:layout_height="10mm"
+        android:layout_toRightOf="@+id/Model"
+        android:id="@+id/Price"
+        android:layout_marginTop="5mm"
+        android:layout_centerVertical="true"
+        android:text="Price"
+        />
+</RelativeLayout>
